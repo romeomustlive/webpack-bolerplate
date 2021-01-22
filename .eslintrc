@@ -1,8 +1,5 @@
 {
-  "parserOptions": {
-    "ecmaVersion": 2020,
-    "sourceType": "module"
-  },
+  "parser": "babel-eslint",
   "extends": [
     "eslint:recommended",
     "plugin:prettier/recommended",
@@ -21,7 +18,7 @@
     "no-console": 0,
     "prettier/prettier": ["error", {
       "singleQuote": true,
-      "semi": false,
+      "semi": true,
       "trailingComma": "none"
     }]
   }
