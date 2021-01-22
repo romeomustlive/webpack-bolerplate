@@ -2,4 +2,4 @@ function sum(x, y) {
   return x + y ?? 'default';
 }
 
-sum(3, 2);
+console.log(sum(2, 5));
